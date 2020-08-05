@@ -73,6 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 22px 0;
 }
 
+@media(max-width: 500px)
+{
+  .mh{
+    max-height: 50px;
+  }
+}
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 15px 0;
